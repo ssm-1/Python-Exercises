@@ -1,0 +1,10 @@
+#Print characters present at an even index number
+
+stringfromuser = input(print("Enter a string: "))
+
+print("Printing only even index characters: ")
+
+for i in range(len(stringfromuser)): 
+    if i % 2 == 0: 
+        print(stringfromuser[i])
+
